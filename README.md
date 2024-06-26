@@ -1,4 +1,4 @@
-# AfriNet Mern Stack information sharing app.
+# AfriNet Mern Stack information sharing app
 
 Some Features:
 
