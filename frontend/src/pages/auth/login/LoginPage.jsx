@@ -59,7 +59,7 @@ const LoginPage = () => {
         <img
           src={"./../../../../afrinet.png"}
           alt="Afrinet"
-          className="h-96 pr-8"
+          className="h-170 pr-8"
         />{" "}
       </div>
       <div className="flex-1 flex flex-col justify-center items-center">
