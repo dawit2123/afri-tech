@@ -35,7 +35,7 @@ export default {
 <html lang="en" data-theme="black">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image" href="./frontend/afrinet.jpg" />
+    <link rel="icon" type="image" href="./frontend/afrinet.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AfriNet</title>
   </head>
@@ -83,7 +83,7 @@ import { FaUser } from "react-icons/fa";
 import { MdPassword } from "react-icons/md";
 import { MdDriveFileRenameOutline } from "react-icons/md";
 
-const afrinet = "./frontend/afrinet.jpg";
+const afrinet = "./frontend/afrinet.png";
 const SignUpPage = () => {
   const [formData, setFormData] = useState({
     email: "",
@@ -350,7 +350,7 @@ const Sidebar = () => {
       <div className="sticky top-0 left-0 h-screen flex flex-col border-r border-gray-700 w-20 md:w-full">
         <Link to="/" className="flex justify-center md:justify-start">
           <img
-            src={"/afrinet.jpg"}
+            src={"/afrinet.png"}
             alt="Afrinet"
             className="w-12 h-12 rounded-full fill-white hover:bg-stone-900"
           />{" "}
