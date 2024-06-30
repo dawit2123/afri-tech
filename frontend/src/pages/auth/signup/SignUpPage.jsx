@@ -61,7 +61,7 @@ const SignUpPage = () => {
     <div className="max-w-screen-xl mx-auto flex h-screen px-10">
       <div className="flex-1 hidden lg:flex items-center  justify-center">
         <img
-          src={"./../../../../afrinet.jpg"}
+          src={"./../../../../afrinet.png"}
           alt="Afrinet"
           className="w-12 h-12 rounded-full fill-white hover:bg-stone-900"
         />{" "}
@@ -72,7 +72,7 @@ const SignUpPage = () => {
           onSubmit={handleSubmit}
         >
           <img
-            src={"./../../../../afrinet.jpg"}
+            src={"./../../../../afrinet.png"}
             alt="Afrinet"
             className="w-12 h-12 rounded-full fill-white hover:bg-stone-900"
           />{" "}
