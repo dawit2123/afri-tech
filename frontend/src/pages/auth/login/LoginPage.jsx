@@ -57,7 +57,7 @@ const LoginPage = () => {
     <div className="max-w-screen-xl mx-auto flex h-screen">
       <div className="flex-2 hidden lg:flex items-center  justify-center">
         <img
-          src={"./../../../../afrinet.jpg"}
+          src={"./../../../../afrinet.png"}
           alt="Afrinet"
           className="h-96 pr-8"
         />{" "}
@@ -65,7 +65,7 @@ const LoginPage = () => {
       <div className="flex-1 flex flex-col justify-center items-center">
         <form className="flex gap-4 flex-col" onSubmit={handleSubmit}>
           <img
-            src={"./../../../../afrinet.jpg"}
+            src={"./../../../../afrinet.png"}
             alt="Afrinet"
             className="w-12 h-12 rounded-full fill-white hover:bg-stone-900"
           />{" "}
