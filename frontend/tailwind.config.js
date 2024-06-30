@@ -13,7 +13,7 @@ export default {
       "light",
       {
         black: {
-          ...daisyUIThemes["bumblebee"],
+          ...daisyUIThemes["dark"],
           primary: "rgb(40,201,165)",
           secondary: "rgb(24, 24, 24)",
         },
