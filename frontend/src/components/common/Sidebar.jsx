@@ -6,7 +6,7 @@ import { BiLogOut } from "react-icons/bi";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import toast from "react-hot-toast";
 
-const afrinet = "./../../../../afrinet.jpg";
+const afrinet = "./../../../../afrinet.png";
 const Sidebar = () => {
   const queryClient = useQueryClient();
   const { mutate: logout } = useMutation({
