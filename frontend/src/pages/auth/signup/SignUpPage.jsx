@@ -63,7 +63,7 @@ const SignUpPage = () => {
         <img
           src={"./../../../../afrinet.png"}
           alt="Afrinet"
-          className="w-12 h-12 rounded-full fill-white hover:bg-stone-900"
+          className="h-170 pr-8"
         />{" "}
       </div>
       <div className="flex-1 flex flex-col justify-center items-center">
