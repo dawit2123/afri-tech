@@ -55,11 +55,11 @@ const LoginPage = () => {
 
   return (
     <div className="max-w-screen-xl mx-auto flex h-screen">
-      <div className="flex-1 hidden lg:flex items-center  justify-center">
+      <div className="flex-2 hidden lg:flex items-center  justify-center">
         <img
           src={"./../../../../afrinet.jpg"}
           alt="Afrinet"
-          className="w-12 h-12 rounded-full fill-white hover:bg-stone-900"
+          className="h-96 pr-8"
         />{" "}
       </div>
       <div className="flex-1 flex flex-col justify-center items-center">
