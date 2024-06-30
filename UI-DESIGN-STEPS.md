@@ -35,7 +35,7 @@ export default {
 <html lang="en" data-theme="black">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./frontend/afrinet.jpg" />
+    <link rel="icon" type="image" href="./frontend/afrinet.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AfriNet</title>
   </head>
