@@ -1,24 +1,8 @@
 # AfriNet Mern Stack information sharing app
 
-Some Features:
+The AfriNet app is built using a MERN stack, which includes React.js, MongoDB, Node.js, and Express. It includes a range of features such as authentication with JSON Web Tokens (JWT), data fetching and caching with React Query, the ability to follow suggested users, create and delete posts, comment on posts, like posts, delete posts if you are the owner, edit profile information, edit cover and profile images, upload images using Cloudinary, and send notifications. The app also includes deployment capabilities.
 
-- ⚛️ Tech Stack: React.js, MongoDB, Node.js, Express, Tailwind
-- 🔐 Authentication with JSONWEBTOKENS (JWT)
-- 🔥 React Query for Data Fetching, Caching etc.
-- 👥 Suggested Users to Follow
-- ✍️ Creating Posts
-- 🗑️ Deleting Posts
-- 💬 Commenting on Posts
-- ❤️ Liking Posts
-- 🔒 Delete Posts (if you are the owner)
-- 📝 Edit Profile Info
-- 🖼️ Edit Cover Image and Profile Image
-- 📷 Image Uploads using Cloudinary
-- 🔔 Send Notifications
-- 🌐 Deployment
-- ⏳ And much more!
-
-### Setup .env file
+To set up the app, you will need to create a `.env` file with the following variables:
 
 ```js
 MONGO_URI=...
@@ -30,13 +14,13 @@ CLOUDINARY_API_KEY=...
 CLOUDINARY_API_SECRET=...
 ```
 
-### Build the app
+To build the app, run the following command:
 
 ```shell
 npm run build
 ```
 
-### Start the app
+To start the app, run the following command:
 
 ```shell
 npm start
