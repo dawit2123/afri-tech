@@ -3,7 +3,7 @@ import { BsEmojiSmileFill } from "react-icons/bs";
 import { useRef, useState } from "react";
 import { IoCloseSharp } from "react-icons/io5";
 import ReactQuill from "react-quill";
-import "react-quill/dist/quill.snow.css";
+import "react-quill/dist/quill.bubble.css";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { toast } from "react-hot-toast";
 
