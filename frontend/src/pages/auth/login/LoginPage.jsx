@@ -69,7 +69,9 @@ const LoginPage = () => {
             alt="Afrinet"
             className="w-12 h-12 rounded-full fill-white"
           />{" "}
-          <h1 className="text-4xl font-extrabold text-white">{"Let's"} go.</h1>
+          <h1 className="text-4xl font-extrabold text-white">
+            Tech Newsletter
+          </h1>
           <label className="input input-bordered rounded flex items-center gap-2">
             <MdOutlineMail />
             <input
