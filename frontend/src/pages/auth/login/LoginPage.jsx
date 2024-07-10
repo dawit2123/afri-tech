@@ -64,11 +64,6 @@ const LoginPage = () => {
       </div>
       <div className="flex-1 flex flex-col justify-center items-center">
         <form className="flex gap-4 flex-col" onSubmit={handleSubmit}>
-          <img
-            src={"./../../../../afrinet.png"}
-            alt="Afrinet"
-            className="w-12 h-12 rounded-full fill-white"
-          />{" "}
           <h1 className="text-4xl font-extrabold text-white">
             AfriTech Newsletter
           </h1>
