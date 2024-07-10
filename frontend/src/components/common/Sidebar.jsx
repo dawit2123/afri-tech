@@ -42,8 +42,6 @@ const Sidebar = () => {
             alt="Afrinet"
             className="w-12 h-12 rounded-full fill-white hover:bg-stone-900"
           />
-
-          {/* <XSvg className='px-2 w-12 h-12 rounded-full fill-white hover:bg-stone-900' /> */}
         </Link>
         <ul className="flex flex-col gap-3 mt-4">
           <li className="flex justify-center md:justify-start">
