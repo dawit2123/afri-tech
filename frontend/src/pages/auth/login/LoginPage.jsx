@@ -70,7 +70,7 @@ const LoginPage = () => {
             className="w-12 h-12 rounded-full fill-white"
           />{" "}
           <h1 className="text-4xl font-extrabold text-white">
-            Tech Newsletter
+            AfriTech Newsletter
           </h1>
           <label className="input input-bordered rounded flex items-center gap-2">
             <MdOutlineMail />
