@@ -3,7 +3,7 @@ import { BsEmojiSmileFill } from "react-icons/bs";
 import { useRef, useState } from "react";
 import { IoCloseSharp } from "react-icons/io5";
 import ReactQuill from "react-quill";
-import "react-quill/dist/quill.bubble.css";
+import "react-quill/dist/quill.snow.css";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { toast } from "react-hot-toast";
 
@@ -50,6 +50,7 @@ const CreatePost = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log("text:", text);
     createPost({ text, img });
   };
 
@@ -81,9 +82,14 @@ const CreatePost = () => {
         <ReactQuill
           theme="snow"
           value={text}
-          onChange={(e) => setText(e.target.value)}
+          style={{
+            backgroundColor: "#1D232A",
+            color: "white",
+            padding: "10px",
+          }}
+          onChange={setText}
         />
-        ;
+
         {img && (
           <div className="relative w-72 mx-auto">
             <IoCloseSharp
