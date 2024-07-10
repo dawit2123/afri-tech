@@ -7,6 +7,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { toast } from "react-hot-toast";
+import styles from "./../../../src/post.module.css";
 
 import LoadingSpinner from "./LoadingSpinner";
 import { formatPostDate } from "../../utils/date";
@@ -160,7 +161,10 @@ const Post = ({ post }) => {
             )}
           </div>
           <div className="flex flex-col gap-3 overflow-hidden">
-            <span dangerouslySetInnerHTML={{ __html: post.text }}></span>
+            <span
+              className={styles.postContainer}
+              dangerouslySetInnerHTML={{ __html: post.text }}
+            ></span>
             {post.img && (
               <img
                 src={post.img}
