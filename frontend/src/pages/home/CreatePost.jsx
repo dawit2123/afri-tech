@@ -63,6 +63,26 @@ const CreatePost = () => {
       reader.readAsDataURL(file);
     }
   };
+  const toolbarOptions = [
+    ["bold", "italic", "underline", "strike"],
+    ["blockquote", "code-block"],
+    ["link", "formula"],
+
+    [{ header: 1 }, { header: 2 }],
+    [{ list: "ordered" }, { list: "bullet" }, { list: "check" }],
+    [{ script: "sub" }, { script: "super" }],
+    [{ indent: "-1" }, { indent: "+1" }],
+    [{ direction: "rtl" }],
+
+    [{ size: ["small", false, "large", "huge"] }],
+    [{ header: [1, 2, 3, 4, 5, 6, false] }],
+
+    [{ color: [] }, { background: [] }],
+    [{ font: [] }],
+    [{ align: [] }],
+
+    ["clean"],
+  ];
 
   return (
     <div className="flex p-4 items-start gap-4 border-b border-gray-700">
@@ -75,6 +95,10 @@ const CreatePost = () => {
         <ReactQuill
           theme="snow"
           value={text}
+          modules={{
+            toolbar: toolbarOptions,
+            // syntax: { hljs },
+          }}
           style={{
             backgroundColor: "#1D232A",
             color: "white",
