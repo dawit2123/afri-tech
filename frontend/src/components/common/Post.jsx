@@ -168,7 +168,7 @@ const Post = ({ post }) => {
             {post.img && (
               <img
                 src={post.img}
-                className="h-80 object-contain rounded-lg border border-gray-700"
+                className="object-fit rounded-lg border border-gray-700"
                 alt=""
               />
             )}
