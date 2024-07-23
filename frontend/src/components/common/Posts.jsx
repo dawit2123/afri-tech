@@ -9,7 +9,7 @@ const Posts = ({ feedType, username, userId }) => {
       case "forYou":
         return "/api/posts/mine";
       case "following":
-        return "/api/posts/following";
+        return "/api/posts/all";
       case "posts":
         return `/api/posts/user/${username}`;
       case "likes":
